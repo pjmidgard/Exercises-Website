@@ -1,0 +1,35 @@
+body { 
+	background-color: yellow;
+}
+
+h1 {
+    color: cornflowerblue;
+    background-color: antiquewhite;
+}
+
+ul>li {
+    display: inline;
+    color:blueviolet;
+}
+
+a {
+    text-decoration: none;
+}//Exercises Week2
+#red {
+    color: red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+//#################################
+//#################################
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}//Exercises Week 1
