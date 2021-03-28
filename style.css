@@ -1,3 +1,5 @@
+//Crated: Jurijus Pacalovas
+
 body { 
 	background-color: yellow;
 }
@@ -14,7 +16,7 @@ ul>li {
 
 a {
     text-decoration: none;
-}//Exercises Week2
+}
 #red {
     color: red;
 }
@@ -22,8 +24,7 @@ a {
 .uppercase {
     text-transform: uppercase;
 }
-//#################################
-//#################################
+//Exercises Week2 
 hr { 
   display: block;
   margin-top: 0.5em;
