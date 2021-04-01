@@ -2,11 +2,13 @@
 <html>
 <!--Crated: Jurijus Pacalovas-->
 	<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<title>faleristics</title>
+		<title>Exercises</title>
 <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="style.css">
   
@@ -44,5 +46,66 @@
   <li>Tea</li>
   <li>Milk</li>
 </ol>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+</script>
+<script>
+document.getElementById('hello').textContent + 'Hello, Console'
+"Hello, Console!"
+5+15
+20
+function add (a, b=20) {
+	return a+b;
+	undefined
+	add(25)
+	45
+function add(a, b=20) {
+  return a + b;
+}
+console.log('a');
+console.log('b');
+debugger;
+console.log('c');
+
+function sum(a, b) {
+  let result = a + b; // DevTools pauses on this line.
+  return result;
+}
+debug(sum); // Pass the function object, not a string.
+sum();
+
+(function () {
+  function hey() {
+    console.log('hey');
+  }
+  function yo() {
+    console.log('yo');
+  }
+  debug(yo); // This works.
+  yo();
+})();
+debug(hey); // This doesn't work. hey() is out of scope.
+</script>
+<!--Exercises1-6weeks-->
 </body>
 </html>
